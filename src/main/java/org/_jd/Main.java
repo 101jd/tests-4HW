@@ -4,14 +4,28 @@ package org._jd;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        /*
+        1)  Почему использование тестовых заглушек может быть полезным при написании модульных тестов?
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+            Потому что модульное тестирование предполагает наличие внещних зависимостей, которые могут повлиять на
+            поведение тестируемого кода или нежелательно дергать внешний API/БД/etc.
+
+        2) Какой тип тестовой заглушки следует использовать, если вам нужно проверить, что метод был вызван с
+           определенными аргументами?
+
+            Spy.
+
+        3) Какой тип тестовой заглушки следует использовать, если вам просто нужно вернуть определенное значение
+           или исключение в ответ на вызов метода?
+
+            Stub.
+
+        4) Какой тип тестовой заглушки вы бы использовали для имитации  взаимодействия с внешним API или базой
+           данных?
+
+            Mock.
+
+         */
+
     }
 }
